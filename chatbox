@@ -1,0 +1,7 @@
+sec = input ('hello. what is your name?\n')
+print('hello,%s.' % sec)
+sec1 = input ('okay,%s what is your favorite color? ' % sec)
+if (sec1.casefold() == 'red and blue'):
+  print ('thats my favorite color too!')
+else:
+  print ('I like red and blue!')
