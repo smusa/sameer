@@ -1,0 +1,88 @@
+
+
+
+
+sec = input ('hello. what is your name?\n')
+print('hello, %s.' % sec)
+sec1 = input ('okay,%s what is your favorite color/colors? ' % sec)
+if (str.strip(sec1.casefold()) == 'red and blue'):
+  print ('those are my favorite colors too!')
+else:
+ print ('I like red and blue!')
+sec2 = input ('what is your favorite sport?') 
+
+if (str.strip(sec2.casefold()) != 'basketball'):
+  print ('I like basketball!')
+else:
+  print ('me too!')
+
+print ('and the final question,%s' % sec)
+sec2 =  input ('do you like DC or Marvel?')
+if (str.strip(sec2.casefold()) == "Marvel"):
+	
+  print ('me too!')
+else:
+	print ('I like Marvel!') 
+ 
+sec3 = input ('lets  play a game!')
+
+
+sec4 = input ('guess my number from one to ten! you get to play 5 times')
+
+
+
+import random
+print ('the computers pick was...')
+computerpick = print (random.randrange(1,10))
+if (sec4 != computerpick):  
+  print ('you lost')
+else:
+  print ('you won! lets play more ')
+
+  (
+
+)
+sec4 = input ('try again ')
+print ('the computers pick was...')
+computerpick = print (random.randrange(1,10))
+if (sec4 != computerpick):  
+  print ('you lost')
+else:
+  print ('you won again! lets play more ')
+  (
+
+)
+sec4 = input ('try again ')
+print ('the computers pick was...')
+computerpick = print (random.randrange(1,10))
+if (sec4 != computerpick):  
+  print ('you lost')
+else:
+  print ('wow! you won 3 times! lets play more ')
+  (
+
+
+)
+sec4 = input ('try again ')
+print ('the computers pick was...')
+computerpick = print (random.randrange(1,10))
+if (sec4 != computerpick):  
+  print ('you lost')
+else:
+  print ('almost to a perfect streak... lets play more! ')
+  (
+
+)
+sec4 = input ('try again ')
+print ('the computers pick was...')
+computerpick = print (random.randrange(1,10))
+if (sec4 != computerpick):  
+  print ('oops!')
+else:
+  print ('you won the guessing game! ')
+  (
+
+)
+sec = input ('well, that wraps it up! buh bye!')
+if (str.strip(sec.casefold()) == "bye"):
+  print ('you too!')
